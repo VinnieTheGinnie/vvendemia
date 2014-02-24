@@ -140,6 +140,12 @@ body {
 }
 
 
+#resume a:link {text-decoration:none;}
+#resume a:visited {text-decoration:none;}
+#resume a:hover {text-decoration:none;}
+#resume a:active {text-decoration:none;}
+
+
 #contact {
 
 	width: 100%;
@@ -173,6 +179,39 @@ body {
 
 #contact p {
 	color: white;
+}
+
+@media screen and (max-width: 800px) {
+
+
+	#resume h1 {
+		color: #D74B4B;
+		font-size: 3em;
+	}
+
+	#resume h1:first-child {
+		padding-top: 1em;
+	}
+
+	#resume h2 {
+		color: #354B5E;
+		font-size: 2em;
+	}
+
+	#resume h4 {
+		color: #475F77;
+		font-size: 1.5em;
+	}
+
+	#contact h2 {
+		color: #354B5E;
+		font-size: 2em;
+	}
+
+	#navbar_links {
+		display: none;
+	}
+
 }
 
 
