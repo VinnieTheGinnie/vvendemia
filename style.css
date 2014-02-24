@@ -1,0 +1,221 @@
+body {
+	font-family: tahoma, helvetica, arial, sans-serif;
+	text-align: center;
+	color: #6f6f6f;
+}
+  
+html, body, #wrapper, h1, {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body, th, td {
+	font-size: 10px;
+}
+
+img { border: 0; }
+
+#wrapper {
+	/* margin from the top to the center box */ 
+	margin: 100px auto;
+	text-align: left;
+	position: relative;
+}
+
+
+.block {
+	display: block;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+* html .clear {
+	margin-top: -5px;
+	margin-bottom: -4px;
+}
+
+.left {
+	float: left;
+	margin: 1px 12px 0px 0px;
+}
+
+.softright {
+	text-align: right;
+}
+
+/* ***** */
+
+body {
+	background: #373839;
+	padding-bottom: 0px;
+}
+
+#wrapper {
+	/*changes the width of the center box */
+	width: 1000px;
+}
+
+
+#home {
+
+	width: 100%;
+	height: 800px;
+	background-color: #354B5E;
+	padding-top: 6em;
+}
+
+#home img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+#home h1 {
+	text-align: center;
+	font-family: Calibri;
+	color: #D74B4B;
+	padding-top: 1em;
+}
+
+#home h2 {
+	text-align: center;
+	font-family: Calibri;
+	color: #DCDDD8;
+	padding-top: 15px;
+}
+
+#home h4 {
+	text-align: center;
+	font-family: Calibri;
+	color: white;
+}
+
+#biography {
+
+	width: 100%;
+	height: 800px;
+	background-color: #475F77;
+}
+
+#resume {
+
+	width: 100%;
+	height: 800px;
+	background-color: #DCDDD8;
+}
+
+#resume h1, h2, h4, p {
+	text-align: center;
+}
+
+
+#resume h1 {
+	color: #D74B4B;
+}
+
+#resume h1:first-child {
+	padding-top: 3em;
+}
+
+#resume h2 {
+	color: #354B5E;
+}
+
+#resume h4 {
+	color: #475F77;
+}
+
+#resume p {
+	color: #D74B4B;
+}
+
+
+#contact {
+
+	width: 100%;
+	height: 500px;
+	background-color: #D74B4B;
+}
+
+#contact h1 {
+	color: white;
+}
+
+#contact h1:first-child {
+	padding-top: 3em;
+}
+
+#contact h2 {
+	color: #354B5E;
+}
+
+#contact a {
+	color: #354B5E;
+}
+
+#contact a:hover {
+	color: white;
+}
+
+#contact h4 {
+	color: #475F77;
+}
+
+#contact p {
+	color: white;
+}
+
+
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* body */
+
+#body { width: 100%; }
+
+#body { background: #ed8601 url(images/body_bg.gif); }
+#body div { background: url(images/body_tl.gif) top left no-repeat; }
+#body div div { background: url(images/body_tr.gif) top right no-repeat; }
+#body div div div { background: url(images/body_bl.gif) bottom left no-repeat; }
+#body div div div div { background: url(images/body_br.gif) bottom right no-repeat; }
+#body .inner div { background: none; }
+
+#body .inner {
+	color: white;
+}
+
+#body h2 {
+	margin-top: 3px;
+	text-indent: -3px;
+}
+
+
+* html #body h2 {
+	margin-top: 21px;
+	margin-top: 3px;
+}
+
+#body p {
+	margin: 1em 0;
+}
+
+#body #dividerx {
+	clear: both;
+	margin: 0 1em;
+	padding: 0px 0;
+	background: url(images/divider_h.gif) 12px 12px repeat-x;
+}
+
